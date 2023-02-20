@@ -5,9 +5,9 @@ Portfolio project to show of the skills in front end development
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Tailwindcss][tailwindcss]][tailwindcss.com]
+* NextJs
+* ReactJs
+* Tailwindcss
 
 ### Prerequisites
 
