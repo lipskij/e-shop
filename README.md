@@ -1,16 +1,17 @@
+<a name="readme-top"></a>
 ## About The Project
 
 Portfolio project to show of the skills in front end development
 
 ### Built With
 
-- [![Next][next.js]][next-url]
-- [![React][react.js]][react-url]
-- [![Tailwindcss][tailwindcss]][tailwindcss.com]
+* [![Next][Next.js]][Next-url]
+* [![React][React.js]][React-url]
+* [![Tailwindcss][tailwindcss]][tailwindcss.com]
 
 ### Prerequisites
 
-For this project you will ned Node installed.
+For this project you will need Node installed.
 
 - npm
   ```sh
@@ -47,5 +48,7 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 ## Contact
 
-Emil Lipskij website [@website] (https://lipskij.com)
-LikendIn [@linkedin] (https://www.linkedin.com/in/emil-lipskij-6920831b2/)
+Emil Lipskij website (https://lipskij.com)
+LikendIn (https://www.linkedin.com/in/emil-lipskij-6920831b2/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
