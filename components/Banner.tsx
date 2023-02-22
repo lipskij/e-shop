@@ -1,28 +1,30 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+import { Carousel } from "./Carousel";
 
 export const Banner: React.FC = () => {
   return (
-    <div className='w-screen place-items-center bg-gray-100'>
+    <div className='w-screen h-screen place-items-center bg-slate-400'>
       <Image
         src='/images/banner.jpg'
         alt='banner'
         width='0'
         height='0'
-        sizes='100vw'
-        className='w-full h-fit object-cover brightness-50'
+        sizes='100vh'
+        className='w-full h-full object-cover  brightness-50'
       />
-      <div className='md:absolute top-1/3 left-1/4 border rounded p-5 md:w-fit h-1/4 bg-slate-300'>
-        <h1 className='md:text-xl font-bold text-center'>
-          Find evrything from apparel to electronic`s
-        </h1>
-        <p className='md:text-xl text-center mt-2'>
-          Clothing, jewelery, electronics
-        </p>
-        <button className='p-2 mt-10 md:text-xl sm:text-sm text-slate-50 bg-slate-500 hover:bg-slate-50 hover:text-slate-600 rounded focus:outline-none w-full'>
-          Shop Now
-        </button>
-        <p className='text-md underline mt-2 mb-2'>Contact us</p>
+      <div className='absolute top-1/3 md:left-1/4 '>
+        <div className='p-5 flex flex-col items-center'>
+          <h1 className='text-4xl text-center text-slate-50 tracking-wide'>
+            Find evrything from apparel to electronic`s
+          </h1>
+          <Link href='/products'>
+            <button className='p-2 mt-10 text-2xl text-slate-50 bg-slate-500 hover:bg-slate-50 hover:text-slate-600 rounded focus:outline-none'>
+              Shop Now
+            </button>
+          </Link>
+        </div>
       </div>
     </div>
   );
